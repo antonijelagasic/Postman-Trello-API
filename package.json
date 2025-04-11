@@ -1,0 +1,15 @@
+{
+  "name": "postman-trello-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "newman run \"tests/Cards.postman_collection.json\" -e \"tests/Trello API.postman_environment.json\" && newman run \"tests/Boards.postman_collection.json\" -e \"tests/Trello API.postman_environment.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "newman": "^6.2.1"
+  }
+}
